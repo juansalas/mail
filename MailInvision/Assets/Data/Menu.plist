@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A_Mailboxes</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Inbox</string>
+			<key>image</key>
+			<string>menu-item-inbox</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Sent</string>
+			<key>image</key>
+			<string>menu-item-sent</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Pinned</string>
+			<key>image</key>
+			<string>menu-item-pinned</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Drafts</string>
+			<key>image</key>
+			<string>menu-item-drafts</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Trash</string>
+			<key>image</key>
+			<string>menu-item-trash</string>
+		</dict>
+	</array>
+	<key>B_Groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>All mail</string>
+			<key>image</key>
+			<string>menu-item-circle</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Spam</string>
+			<key>image</key>
+			<string>menu-item-circle</string>
+		</dict>
+	</array>
+	<key>C_</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Project Foo</string>
+			<key>image</key>
+			<string>menu-item-circle</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Project Bar</string>
+			<key>image</key>
+			<string>menu-item-circle</string>
+		</dict>
+	</array>
+	<key>D_Marked</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Important</string>
+			<key>image</key>
+			<string>menu-item-important</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Personal</string>
+			<key>image</key>
+			<string>menu-item-personal</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Work</string>
+			<key>image</key>
+			<string>menu-item-work</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Travel</string>
+			<key>image</key>
+			<string>menu-item-travel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

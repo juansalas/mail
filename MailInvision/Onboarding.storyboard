@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="QXk-84-qP4">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="ZT9-pD-xnv" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zGa-fB-QvM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sd3-MI-7nY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YnG-zb-rR7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ioi-Dd-xnp">
+                                <rect key="frame" x="16" y="250" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ZT9-pD-xnv" id="eHX-sj-kCx"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QTL-xz-DJw">
+                                <rect key="frame" x="16" y="202" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ZT9-pD-xnv" id="gSW-dV-2Bm"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyj-9z-xI4">
+                                <rect key="frame" x="262" y="297" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="OFG-jb-pTj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Signin">
+                                    <color key="titleColor" red="0.54534232586153952" green="1" blue="0.99035345219954296" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="ZT9-pD-xnv" eventType="touchUpInside" id="q14-ep-lfS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-60@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="JDj-4L-WNz">
+                                <rect key="frame" x="260" y="52" width="81" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="BZ1-DF-Z4Y"/>
+                                    <constraint firstAttribute="width" constant="81" id="abd-1C-lr8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41769678517904252" green="0.76593501984126988" blue="0.75854639106032706" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Iyj-9z-xI4" firstAttribute="top" secondItem="ioi-Dd-xnp" secondAttribute="bottom" constant="17" id="2Z4-ML-K8q"/>
+                            <constraint firstItem="QTL-xz-DJw" firstAttribute="leading" secondItem="YnG-zb-rR7" secondAttribute="leadingMargin" id="3pJ-Fq-XDS"/>
+                            <constraint firstItem="QTL-xz-DJw" firstAttribute="top" secondItem="JDj-4L-WNz" secondAttribute="bottom" constant="15" id="Bgi-4X-r5W"/>
+                            <constraint firstItem="JDj-4L-WNz" firstAttribute="top" secondItem="zGa-fB-QvM" secondAttribute="bottom" constant="32" id="Buu-RC-UAQ"/>
+                            <constraint firstItem="QTL-xz-DJw" firstAttribute="trailing" secondItem="YnG-zb-rR7" secondAttribute="trailingMargin" id="EKW-r7-6oe"/>
+                            <constraint firstItem="ioi-Dd-xnp" firstAttribute="leading" secondItem="QTL-xz-DJw" secondAttribute="leading" id="V3Y-aP-ayE"/>
+                            <constraint firstAttribute="centerY" secondItem="QTL-xz-DJw" secondAttribute="centerY" constant="89" id="de2-76-YfG"/>
+                            <constraint firstItem="QTL-xz-DJw" firstAttribute="top" secondItem="zGa-fB-QvM" secondAttribute="bottom" constant="176" id="fQU-jK-QAQ"/>
+                            <constraint firstAttribute="centerX" secondItem="Iyj-9z-xI4" secondAttribute="centerX" id="hpT-Ax-I4W"/>
+                            <constraint firstItem="JDj-4L-WNz" firstAttribute="top" secondItem="zGa-fB-QvM" secondAttribute="bottom" constant="32" id="lEs-V3-aAD"/>
+                            <constraint firstAttribute="centerX" secondItem="JDj-4L-WNz" secondAttribute="centerX" id="qXF-sV-qEL"/>
+                            <constraint firstItem="ioi-Dd-xnp" firstAttribute="top" secondItem="QTL-xz-DJw" secondAttribute="bottom" constant="18" id="r3n-pf-8x9"/>
+                            <constraint firstItem="QTL-xz-DJw" firstAttribute="top" secondItem="JDj-4L-WNz" secondAttribute="bottom" constant="63" id="sHe-vJ-DmC"/>
+                            <constraint firstItem="ioi-Dd-xnp" firstAttribute="trailing" secondItem="QTL-xz-DJw" secondAttribute="trailing" id="xlR-aN-IRd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bgi-4X-r5W"/>
+                                <exclude reference="de2-76-YfG"/>
+                                <exclude reference="fQU-jK-QAQ"/>
+                                <exclude reference="Buu-RC-UAQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="email" destination="QTL-xz-DJw" id="ghg-lZ-xas"/>
+                        <outlet property="password" destination="ioi-Dd-xnp" id="x0U-bZ-Zb8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vft-cf-HsS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="294"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60@3x.png" width="180" height="180"/>
+    </resources>
+</document>

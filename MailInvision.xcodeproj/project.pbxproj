@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C748B3E88DF57C073EF2BAD /* libPods-MailInvision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BEC22915F5C07AC3AA1CB6 /* libPods-MailInvision.a */; };
+		9697AA591BC2FB47009E3C47 /* splash-main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9697AA581BC2FB47009E3C47 /* splash-main@2x.png */; };
+		96FFE1C91BBEAC9F00B1A748 /* marker-search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1C81BBEAC9F00B1A748 /* marker-search@2x.png */; };
+		96FFE1CD1BBEAE9300B1A748 /* UIImageView+Internet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE1CC1BBEAE9300B1A748 /* UIImageView+Internet.m */; };
+		96FFE1D31BBEBDC400B1A748 /* AttachmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE1D21BBEBDC400B1A748 /* AttachmentCell.m */; };
+		96FFE1D61BBECDF200B1A748 /* icon-forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1D41BBECDF200B1A748 /* icon-forward@2x.png */; };
+		96FFE1D71BBECDF200B1A748 /* icon-reply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1D51BBECDF200B1A748 /* icon-reply@2x.png */; };
+		96FFE1D91BBEEED400B1A748 /* icon-more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1D81BBEEED400B1A748 /* icon-more@2x.png */; };
+		96FFE1DB1BBEFE0100B1A748 /* image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1DA1BBEFE0100B1A748 /* image-placeholder@2x.png */; };
+		96FFE1E01BBF0A9B00B1A748 /* background-navigation-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1DF1BBF0A9B00B1A748 /* background-navigation-bar@2x.png */; };
+		96FFE1E21BBF0EBD00B1A748 /* button-back-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1E11BBF0EBD00B1A748 /* button-back-placeholder@2x.png */; };
+		96FFE1E61BBF111E00B1A748 /* button-download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1E31BBF111E00B1A748 /* button-download@2x.png */; };
+		96FFE1E71BBF111E00B1A748 /* button-more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1E41BBF111E00B1A748 /* button-more@2x.png */; };
+		96FFE1E81BBF111E00B1A748 /* button-remove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1E51BBF111E00B1A748 /* button-remove@2x.png */; };
+		96FFE1EB1BBF13C300B1A748 /* button-compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1E91BBF13C300B1A748 /* button-compose@2x.png */; };
+		96FFE1EC1BBF13C300B1A748 /* button-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1EA1BBF13C300B1A748 /* button-menu@2x.png */; };
+		96FFE1F01BC2A88800B1A748 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE1EF1BC2A88800B1A748 /* LoginViewController.m */; };
+		96FFE1F51BC2AF6300B1A748 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE1F41BC2AF6300B1A748 /* MenuViewController.m */; };
+		96FFE1F81BC2B0D600B1A748 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFE1F71BC2B0D600B1A748 /* MenuItem.m */; };
+		96FFE1FB1BC2B18E00B1A748 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1FA1BC2B18E00B1A748 /* Menu.plist */; };
+		96FFE1FD1BC2C71000B1A748 /* menu-item-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1FC1BC2C71000B1A748 /* menu-item-circle@2x.png */; };
+		96FFE2031BC2C7CA00B1A748 /* menu-item-drafts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1FE1BC2C7CA00B1A748 /* menu-item-drafts@2x.png */; };
+		96FFE2041BC2C7CA00B1A748 /* menu-item-inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE1FF1BC2C7CA00B1A748 /* menu-item-inbox@2x.png */; };
+		96FFE2051BC2C7CA00B1A748 /* menu-item-pinned@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE2001BC2C7CA00B1A748 /* menu-item-pinned@2x.png */; };
+		96FFE2061BC2C7CA00B1A748 /* menu-item-sent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE2011BC2C7CA00B1A748 /* menu-item-sent@2x.png */; };
+		96FFE2071BC2C7CA00B1A748 /* menu-item-trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE2021BC2C7CA00B1A748 /* menu-item-trash@2x.png */; };
+		96FFE20C1BC2C84E00B1A748 /* menu-item-important@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE2081BC2C84E00B1A748 /* menu-item-important@2x.png */; };
+		96FFE20D1BC2C84E00B1A748 /* menu-item-personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE2091BC2C84E00B1A748 /* menu-item-personal@2x.png */; };
+		96FFE20E1BC2C84E00B1A748 /* menu-item-travel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE20A1BC2C84E00B1A748 /* menu-item-travel@2x.png */; };
+		96FFE20F1BC2C84E00B1A748 /* menu-item-work@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FFE20B1BC2C84E00B1A748 /* menu-item-work@2x.png */; };
+		D9A964561BC01BE60051AA8E /* SideMenuManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A964551BC01BE60051AA8E /* SideMenuManagerViewController.m */; };
+		D9A9646D1BC317AE0051AA8E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D9A964591BC317AE0051AA8E /* Contents.json */; };
+		D9A9646E1BC317AE0051AA8E /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645A1BC317AE0051AA8E /* Icon-40.png */; };
+		D9A9646F1BC317AE0051AA8E /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645B1BC317AE0051AA8E /* Icon-40@2x.png */; };
+		D9A964701BC317AE0051AA8E /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645C1BC317AE0051AA8E /* Icon-40@3x.png */; };
+		D9A964711BC317AE0051AA8E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645D1BC317AE0051AA8E /* Icon-60@2x.png */; };
+		D9A964721BC317AE0051AA8E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645E1BC317AE0051AA8E /* Icon-60@3x.png */; };
+		D9A964731BC317AE0051AA8E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9645F1BC317AE0051AA8E /* Icon-76.png */; };
+		D9A964741BC317AE0051AA8E /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964601BC317AE0051AA8E /* Icon-76@2x.png */; };
+		D9A964751BC317AE0051AA8E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964611BC317AE0051AA8E /* Icon-Small.png */; };
+		D9A964761BC317AE0051AA8E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964621BC317AE0051AA8E /* Icon-Small@2x.png */; };
+		D9A964771BC317AE0051AA8E /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964631BC317AE0051AA8E /* Icon-Small@3x.png */; };
+		D9A964781BC317AE0051AA8E /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964641BC317AE0051AA8E /* Icon-60.png */; };
+		D9A964791BC317AE0051AA8E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964651BC317AE0051AA8E /* Icon-72.png */; };
+		D9A9647A1BC317AE0051AA8E /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964661BC317AE0051AA8E /* Icon-72@2x.png */; };
+		D9A9647B1BC317AE0051AA8E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964671BC317AE0051AA8E /* Icon-Small-50.png */; };
+		D9A9647C1BC317AE0051AA8E /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964681BC317AE0051AA8E /* Icon-Small-50@2x.png */; };
+		D9A9647D1BC317AE0051AA8E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A964691BC317AE0051AA8E /* Icon.png */; };
+		D9A9647E1BC317AE0051AA8E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9646A1BC317AE0051AA8E /* Icon@2x.png */; };
+		D9A9647F1BC317AE0051AA8E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9646B1BC317AE0051AA8E /* iTunesArtwork.png */; };
+		D9A964801BC317AE0051AA8E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A9646C1BC317AE0051AA8E /* iTunesArtwork@2x.png */; };
+		D9F090881BBD792B00C2700F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090871BBD792B00C2700F /* main.m */; };
+		D9F0908B1BBD792B00C2700F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0908A1BBD792B00C2700F /* AppDelegate.m */; };
+		D9F090911BBD792B00C2700F /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F0908F1BBD792B00C2700F /* Inbox.storyboard */; };
+		D9F090931BBD792B00C2700F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F090921BBD792B00C2700F /* Images.xcassets */; };
+		D9F090961BBD792B00C2700F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F090941BBD792B00C2700F /* LaunchScreen.xib */; };
+		D9F090A21BBD792B00C2700F /* MailInvisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090A11BBD792B00C2700F /* MailInvisionTests.m */; };
+		D9F090B41BBD800A00C2700F /* Email.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090B31BBD800A00C2700F /* Email.m */; };
+		D9F090B81BBD816100C2700F /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090B71BBD816100C2700F /* Attachment.m */; };
+		D9F090BE1BBD81FF00C2700F /* InboxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090BD1BBD81FF00C2700F /* InboxItem.m */; };
+		D9F090C41BBD828200C2700F /* Recipient.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090C31BBD828200C2700F /* Recipient.m */; };
+		D9F090CD1BBD857800C2700F /* InboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090CC1BBD857800C2700F /* InboxCell.m */; };
+		D9F090D01BBD85AE00C2700F /* InboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090CF1BBD85AE00C2700F /* InboxTableViewController.m */; };
+		D9F090D31BBD85D900C2700F /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090D21BBD85D900C2700F /* ThreadTableViewController.m */; };
+		D9F090D61BBD88EF00C2700F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F090D51BBD88EF00C2700F /* Onboarding.storyboard */; };
+		D9F090D91BBDDE5F00C2700F /* InboxAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090D81BBDDE5F00C2700F /* InboxAPI.m */; };
+		D9F090DC1BBDE91000C2700F /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090DB1BBDE91000C2700F /* DateHelper.m */; };
+		D9F090DF1BBE06D000C2700F /* EmailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090DE1BBE06D000C2700F /* EmailCell.m */; };
+		D9F090E21BBE99E700C2700F /* InboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090E11BBE99E700C2700F /* InboxHelper.m */; };
+		D9F090E51BBEA1A200C2700F /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F090E41BBEA1A200C2700F /* UIHelper.m */; };
+		D9F090E91BBEA5EC00C2700F /* marker-attachment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F090E81BBEA5EC00C2700F /* marker-attachment@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F0909C1BBD792B00C2700F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F0907A1BBD792A00C2700F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F090811BBD792B00C2700F;
+			remoteInfo = MailInvision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86BEC22915F5C07AC3AA1CB6 /* libPods-MailInvision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MailInvision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9697AA581BC2FB47009E3C47 /* splash-main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-main@2x.png"; sourceTree = "<group>"; };
+		96FFE1C81BBEAC9F00B1A748 /* marker-search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-search@2x.png"; sourceTree = "<group>"; };
+		96FFE1CB1BBEAE9300B1A748 /* UIImageView+Internet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Internet.h"; sourceTree = "<group>"; };
+		96FFE1CC1BBEAE9300B1A748 /* UIImageView+Internet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Internet.m"; sourceTree = "<group>"; };
+		96FFE1D11BBEBDC400B1A748 /* AttachmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachmentCell.h; path = Views/AttachmentCell.h; sourceTree = "<group>"; };
+		96FFE1D21BBEBDC400B1A748 /* AttachmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachmentCell.m; path = Views/AttachmentCell.m; sourceTree = "<group>"; };
+		96FFE1D41BBECDF200B1A748 /* icon-forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-forward@2x.png"; sourceTree = "<group>"; };
+		96FFE1D51BBECDF200B1A748 /* icon-reply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-reply@2x.png"; sourceTree = "<group>"; };
+		96FFE1D81BBEEED400B1A748 /* icon-more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-more@2x.png"; sourceTree = "<group>"; };
+		96FFE1DA1BBEFE0100B1A748 /* image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-placeholder@2x.png"; sourceTree = "<group>"; };
+		96FFE1DF1BBF0A9B00B1A748 /* background-navigation-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-navigation-bar@2x.png"; sourceTree = "<group>"; };
+		96FFE1E11BBF0EBD00B1A748 /* button-back-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-back-placeholder@2x.png"; sourceTree = "<group>"; };
+		96FFE1E31BBF111E00B1A748 /* button-download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-download@2x.png"; sourceTree = "<group>"; };
+		96FFE1E41BBF111E00B1A748 /* button-more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-more@2x.png"; sourceTree = "<group>"; };
+		96FFE1E51BBF111E00B1A748 /* button-remove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-remove@2x.png"; sourceTree = "<group>"; };
+		96FFE1E91BBF13C300B1A748 /* button-compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-compose@2x.png"; sourceTree = "<group>"; };
+		96FFE1EA1BBF13C300B1A748 /* button-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-menu@2x.png"; sourceTree = "<group>"; };
+		96FFE1EE1BC2A88800B1A748 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		96FFE1EF1BC2A88800B1A748 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		96FFE1F31BC2AF6300B1A748 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Controllers/MenuViewController.h; sourceTree = "<group>"; };
+		96FFE1F41BC2AF6300B1A748 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Controllers/MenuViewController.m; sourceTree = "<group>"; };
+		96FFE1F61BC2B0D600B1A748 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Models/MenuItem.h; sourceTree = "<group>"; };
+		96FFE1F71BC2B0D600B1A748 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = Models/MenuItem.m; sourceTree = "<group>"; };
+		96FFE1FA1BC2B18E00B1A748 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Menu.plist; path = Data/Menu.plist; sourceTree = "<group>"; };
+		96FFE1FC1BC2C71000B1A748 /* menu-item-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-circle@2x.png"; sourceTree = "<group>"; };
+		96FFE1FE1BC2C7CA00B1A748 /* menu-item-drafts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-drafts@2x.png"; sourceTree = "<group>"; };
+		96FFE1FF1BC2C7CA00B1A748 /* menu-item-inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-inbox@2x.png"; sourceTree = "<group>"; };
+		96FFE2001BC2C7CA00B1A748 /* menu-item-pinned@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-pinned@2x.png"; sourceTree = "<group>"; };
+		96FFE2011BC2C7CA00B1A748 /* menu-item-sent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-sent@2x.png"; sourceTree = "<group>"; };
+		96FFE2021BC2C7CA00B1A748 /* menu-item-trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-trash@2x.png"; sourceTree = "<group>"; };
+		96FFE2081BC2C84E00B1A748 /* menu-item-important@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-important@2x.png"; sourceTree = "<group>"; };
+		96FFE2091BC2C84E00B1A748 /* menu-item-personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-personal@2x.png"; sourceTree = "<group>"; };
+		96FFE20A1BC2C84E00B1A748 /* menu-item-travel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-travel@2x.png"; sourceTree = "<group>"; };
+		96FFE20B1BC2C84E00B1A748 /* menu-item-work@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item-work@2x.png"; sourceTree = "<group>"; };
+		BC4B32CCD07F859B24A7F8A1 /* Pods-MailInvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailInvision.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailInvision/Pods-MailInvision.release.xcconfig"; sourceTree = "<group>"; };
+		BD95FCAE22C9B9E03C9DF72C /* Pods-MailInvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailInvision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailInvision/Pods-MailInvision.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A964541BC01BE60051AA8E /* SideMenuManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuManagerViewController.h; path = Controllers/SideMenuManagerViewController.h; sourceTree = "<group>"; };
+		D9A964551BC01BE60051AA8E /* SideMenuManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuManagerViewController.m; path = Controllers/SideMenuManagerViewController.m; sourceTree = "<group>"; };
+		D9A964591BC317AE0051AA8E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		D9A9645A1BC317AE0051AA8E /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		D9A9645B1BC317AE0051AA8E /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		D9A9645C1BC317AE0051AA8E /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		D9A9645D1BC317AE0051AA8E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D9A9645E1BC317AE0051AA8E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		D9A9645F1BC317AE0051AA8E /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		D9A964601BC317AE0051AA8E /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		D9A964611BC317AE0051AA8E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		D9A964621BC317AE0051AA8E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D9A964631BC317AE0051AA8E /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		D9A964641BC317AE0051AA8E /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		D9A964651BC317AE0051AA8E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		D9A964661BC317AE0051AA8E /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		D9A964671BC317AE0051AA8E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		D9A964681BC317AE0051AA8E /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		D9A964691BC317AE0051AA8E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D9A9646A1BC317AE0051AA8E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D9A9646B1BC317AE0051AA8E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		D9A9646C1BC317AE0051AA8E /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D9F090821BBD792B00C2700F /* MailInvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailInvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F090861BBD792B00C2700F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F090871BBD792B00C2700F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F090891BBD792B00C2700F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9F0908A1BBD792B00C2700F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9F090901BBD792B00C2700F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Inbox.storyboard; sourceTree = "<group>"; };
+		D9F090921BBD792B00C2700F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9F090951BBD792B00C2700F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9F0909B1BBD792B00C2700F /* MailInvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailInvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F090A01BBD792B00C2700F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F090A11BBD792B00C2700F /* MailInvisionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailInvisionTests.m; sourceTree = "<group>"; };
+		D9F090B21BBD800A00C2700F /* Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Email.h; path = Models/Email.h; sourceTree = "<group>"; };
+		D9F090B31BBD800A00C2700F /* Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Email.m; path = Models/Email.m; sourceTree = "<group>"; };
+		D9F090B61BBD816100C2700F /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attachment.h; path = Models/Attachment.h; sourceTree = "<group>"; };
+		D9F090B71BBD816100C2700F /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Attachment.m; path = Models/Attachment.m; sourceTree = "<group>"; };
+		D9F090BC1BBD81FF00C2700F /* InboxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxItem.h; path = Models/InboxItem.h; sourceTree = "<group>"; };
+		D9F090BD1BBD81FF00C2700F /* InboxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxItem.m; path = Models/InboxItem.m; sourceTree = "<group>"; };
+		D9F090C21BBD828200C2700F /* Recipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipient.h; path = Models/Recipient.h; sourceTree = "<group>"; };
+		D9F090C31BBD828200C2700F /* Recipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipient.m; path = Models/Recipient.m; sourceTree = "<group>"; };
+		D9F090CB1BBD857800C2700F /* InboxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxCell.h; path = Views/InboxCell.h; sourceTree = "<group>"; };
+		D9F090CC1BBD857800C2700F /* InboxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxCell.m; path = Views/InboxCell.m; sourceTree = "<group>"; };
+		D9F090CE1BBD85AE00C2700F /* InboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxTableViewController.h; path = Controllers/InboxTableViewController.h; sourceTree = "<group>"; };
+		D9F090CF1BBD85AE00C2700F /* InboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxTableViewController.m; path = Controllers/InboxTableViewController.m; sourceTree = "<group>"; };
+		D9F090D11BBD85D900C2700F /* ThreadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
+		D9F090D21BBD85D900C2700F /* ThreadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
+		D9F090D51BBD88EF00C2700F /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		D9F090D71BBDDE5F00C2700F /* InboxAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxAPI.h; path = Stores/InboxAPI.h; sourceTree = "<group>"; };
+		D9F090D81BBDDE5F00C2700F /* InboxAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxAPI.m; path = Stores/InboxAPI.m; sourceTree = "<group>"; };
+		D9F090DA1BBDE91000C2700F /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateHelper.h; path = Helpers/DateHelper.h; sourceTree = "<group>"; };
+		D9F090DB1BBDE91000C2700F /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateHelper.m; path = Helpers/DateHelper.m; sourceTree = "<group>"; };
+		D9F090DD1BBE06D000C2700F /* EmailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailCell.h; path = Views/EmailCell.h; sourceTree = "<group>"; };
+		D9F090DE1BBE06D000C2700F /* EmailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailCell.m; path = Views/EmailCell.m; sourceTree = "<group>"; };
+		D9F090E01BBE99E700C2700F /* InboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxHelper.h; path = Helpers/InboxHelper.h; sourceTree = "<group>"; };
+		D9F090E11BBE99E700C2700F /* InboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxHelper.m; path = Helpers/InboxHelper.m; sourceTree = "<group>"; };
+		D9F090E31BBEA1A200C2700F /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIHelper.h; path = Helpers/UIHelper.h; sourceTree = "<group>"; };
+		D9F090E41BBEA1A200C2700F /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIHelper.m; path = Helpers/UIHelper.m; sourceTree = "<group>"; };
+		D9F090E81BBEA5EC00C2700F /* marker-attachment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-attachment@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F0907F1BBD792B00C2700F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C748B3E88DF57C073EF2BAD /* libPods-MailInvision.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F090981BBD792B00C2700F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FEFD71B951C08BA4ACAA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86BEC22915F5C07AC3AA1CB6 /* libPods-MailInvision.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E5D4B1126AF3A7FFF612FE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD95FCAE22C9B9E03C9DF72C /* Pods-MailInvision.debug.xcconfig */,
+				BC4B32CCD07F859B24A7F8A1 /* Pods-MailInvision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96FFE1CA1BBEAE7D00B1A748 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1CB1BBEAE9300B1A748 /* UIImageView+Internet.h */,
+				96FFE1CC1BBEAE9300B1A748 /* UIImageView+Internet.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		96FFE1ED1BBF176300B1A748 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		96FFE1F11BC2AF3900B1A748 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1EE1BC2A88800B1A748 /* LoginViewController.h */,
+				96FFE1EF1BC2A88800B1A748 /* LoginViewController.m */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		96FFE1F21BC2AF4100B1A748 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090CE1BBD85AE00C2700F /* InboxTableViewController.h */,
+				D9F090CF1BBD85AE00C2700F /* InboxTableViewController.m */,
+				D9F090D11BBD85D900C2700F /* ThreadTableViewController.h */,
+				D9F090D21BBD85D900C2700F /* ThreadTableViewController.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		96FFE1F91BC2B17200B1A748 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1FA1BC2B18E00B1A748 /* Menu.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D9A964571BC317AE0051AA8E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D9A964581BC317AE0051AA8E /* AppIcon.appiconset */,
+				D9A964641BC317AE0051AA8E /* Icon-60.png */,
+				D9A964651BC317AE0051AA8E /* Icon-72.png */,
+				D9A964661BC317AE0051AA8E /* Icon-72@2x.png */,
+				D9A964671BC317AE0051AA8E /* Icon-Small-50.png */,
+				D9A964681BC317AE0051AA8E /* Icon-Small-50@2x.png */,
+				D9A964691BC317AE0051AA8E /* Icon.png */,
+				D9A9646A1BC317AE0051AA8E /* Icon@2x.png */,
+				D9A9646B1BC317AE0051AA8E /* iTunesArtwork.png */,
+				D9A9646C1BC317AE0051AA8E /* iTunesArtwork@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		D9A964581BC317AE0051AA8E /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				D9A964591BC317AE0051AA8E /* Contents.json */,
+				D9A9645A1BC317AE0051AA8E /* Icon-40.png */,
+				D9A9645B1BC317AE0051AA8E /* Icon-40@2x.png */,
+				D9A9645C1BC317AE0051AA8E /* Icon-40@3x.png */,
+				D9A9645D1BC317AE0051AA8E /* Icon-60@2x.png */,
+				D9A9645E1BC317AE0051AA8E /* Icon-60@3x.png */,
+				D9A9645F1BC317AE0051AA8E /* Icon-76.png */,
+				D9A964601BC317AE0051AA8E /* Icon-76@2x.png */,
+				D9A964611BC317AE0051AA8E /* Icon-Small.png */,
+				D9A964621BC317AE0051AA8E /* Icon-Small@2x.png */,
+				D9A964631BC317AE0051AA8E /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		D9F090791BBD792A00C2700F = {
+			isa = PBXGroup;
+			children = (
+				D9F090841BBD792B00C2700F /* MailInvision */,
+				D9F0909E1BBD792B00C2700F /* MailInvisionTests */,
+				D9F090831BBD792B00C2700F /* Products */,
+				6E5D4B1126AF3A7FFF612FE0 /* Pods */,
+				44FEFD71B951C08BA4ACAA65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F090831BBD792B00C2700F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090821BBD792B00C2700F /* MailInvision.app */,
+				D9F0909B1BBD792B00C2700F /* MailInvisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F090841BBD792B00C2700F /* MailInvision */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090E61BBEA5EC00C2700F /* Assets */,
+				96FFE1CA1BBEAE7D00B1A748 /* Categories */,
+				D9F090AC1BBD7D3B00C2700F /* Models */,
+				D9F090B51BBD801300C2700F /* Views */,
+				D9F090AE1BBD7EB900C2700F /* Controllers */,
+				D9F090AB1BBD7D3300C2700F /* Stores */,
+				D9F090AD1BBD7EB300C2700F /* Helpers */,
+				D9F090891BBD792B00C2700F /* AppDelegate.h */,
+				D9F0908A1BBD792B00C2700F /* AppDelegate.m */,
+				D9F090921BBD792B00C2700F /* Images.xcassets */,
+				D9F090941BBD792B00C2700F /* LaunchScreen.xib */,
+				D9F090851BBD792B00C2700F /* Supporting Files */,
+			);
+			path = MailInvision;
+			sourceTree = "<group>";
+		};
+		D9F090851BBD792B00C2700F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090861BBD792B00C2700F /* Info.plist */,
+				D9F090871BBD792B00C2700F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F0909E1BBD792B00C2700F /* MailInvisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090A11BBD792B00C2700F /* MailInvisionTests.m */,
+				D9F0909F1BBD792B00C2700F /* Supporting Files */,
+			);
+			path = MailInvisionTests;
+			sourceTree = "<group>";
+		};
+		D9F0909F1BBD792B00C2700F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090A01BBD792B00C2700F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F090AB1BBD7D3300C2700F /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090D71BBDDE5F00C2700F /* InboxAPI.h */,
+				D9F090D81BBDDE5F00C2700F /* InboxAPI.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		D9F090AC1BBD7D3B00C2700F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090C21BBD828200C2700F /* Recipient.h */,
+				D9F090C31BBD828200C2700F /* Recipient.m */,
+				D9F090B21BBD800A00C2700F /* Email.h */,
+				D9F090B31BBD800A00C2700F /* Email.m */,
+				D9F090BC1BBD81FF00C2700F /* InboxItem.h */,
+				D9F090BD1BBD81FF00C2700F /* InboxItem.m */,
+				D9F090B61BBD816100C2700F /* Attachment.h */,
+				D9F090B71BBD816100C2700F /* Attachment.m */,
+				96FFE1F61BC2B0D600B1A748 /* MenuItem.h */,
+				96FFE1F71BC2B0D600B1A748 /* MenuItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D9F090AD1BBD7EB300C2700F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D9F090DA1BBDE91000C2700F /* DateHelper.h */,
+				D9F090DB1BBDE91000C2700F /* DateHelper.m */,
+				D9F090E01BBE99E700C2700F /* InboxHelper.h */,
+				D9F090E11BBE99E700C2700F /* InboxHelper.m */,
+				D9F090E31BBEA1A200C2700F /* UIHelper.h */,
+				D9F090E41BBEA1A200C2700F /* UIHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D9F090AE1BBD7EB900C2700F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1F21BC2AF4100B1A748 /* Inbox */,
+				96FFE1F11BC2AF3900B1A748 /* Onboarding */,
+				D9A964541BC01BE60051AA8E /* SideMenuManagerViewController.h */,
+				D9A964551BC01BE60051AA8E /* SideMenuManagerViewController.m */,
+				96FFE1F31BC2AF6300B1A748 /* MenuViewController.h */,
+				96FFE1F41BC2AF6300B1A748 /* MenuViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D9F090B51BBD801300C2700F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1ED1BBF176300B1A748 /* Nibs */,
+				D9F090D41BBD88CB00C2700F /* Storyboards */,
+				D9F090CB1BBD857800C2700F /* InboxCell.h */,
+				D9F090CC1BBD857800C2700F /* InboxCell.m */,
+				D9F090DD1BBE06D000C2700F /* EmailCell.h */,
+				D9F090DE1BBE06D000C2700F /* EmailCell.m */,
+				96FFE1D11BBEBDC400B1A748 /* AttachmentCell.h */,
+				96FFE1D21BBEBDC400B1A748 /* AttachmentCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D9F090D41BBD88CB00C2700F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0908F1BBD792B00C2700F /* Inbox.storyboard */,
+				D9F090D51BBD88EF00C2700F /* Onboarding.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D9F090E61BBEA5EC00C2700F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96FFE1F91BC2B17200B1A748 /* Data */,
+				D9F090E71BBEA5EC00C2700F /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D9F090E71BBEA5EC00C2700F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D9A964571BC317AE0051AA8E /* Icons */,
+				9697AA581BC2FB47009E3C47 /* splash-main@2x.png */,
+				96FFE2081BC2C84E00B1A748 /* menu-item-important@2x.png */,
+				96FFE2091BC2C84E00B1A748 /* menu-item-personal@2x.png */,
+				96FFE20A1BC2C84E00B1A748 /* menu-item-travel@2x.png */,
+				96FFE20B1BC2C84E00B1A748 /* menu-item-work@2x.png */,
+				96FFE1FE1BC2C7CA00B1A748 /* menu-item-drafts@2x.png */,
+				96FFE1FF1BC2C7CA00B1A748 /* menu-item-inbox@2x.png */,
+				96FFE2001BC2C7CA00B1A748 /* menu-item-pinned@2x.png */,
+				96FFE2011BC2C7CA00B1A748 /* menu-item-sent@2x.png */,
+				96FFE2021BC2C7CA00B1A748 /* menu-item-trash@2x.png */,
+				96FFE1FC1BC2C71000B1A748 /* menu-item-circle@2x.png */,
+				96FFE1E91BBF13C300B1A748 /* button-compose@2x.png */,
+				96FFE1EA1BBF13C300B1A748 /* button-menu@2x.png */,
+				96FFE1E31BBF111E00B1A748 /* button-download@2x.png */,
+				96FFE1E41BBF111E00B1A748 /* button-more@2x.png */,
+				96FFE1E51BBF111E00B1A748 /* button-remove@2x.png */,
+				96FFE1E11BBF0EBD00B1A748 /* button-back-placeholder@2x.png */,
+				96FFE1DF1BBF0A9B00B1A748 /* background-navigation-bar@2x.png */,
+				96FFE1DA1BBEFE0100B1A748 /* image-placeholder@2x.png */,
+				96FFE1D81BBEEED400B1A748 /* icon-more@2x.png */,
+				96FFE1D41BBECDF200B1A748 /* icon-forward@2x.png */,
+				96FFE1D51BBECDF200B1A748 /* icon-reply@2x.png */,
+				96FFE1C81BBEAC9F00B1A748 /* marker-search@2x.png */,
+				D9F090E81BBEA5EC00C2700F /* marker-attachment@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F090811BBD792B00C2700F /* MailInvision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F090A51BBD792B00C2700F /* Build configuration list for PBXNativeTarget "MailInvision" */;
+			buildPhases = (
+				F9DED35A76A674AF8830C639 /* Check Pods Manifest.lock */,
+				D9F0907E1BBD792B00C2700F /* Sources */,
+				D9F0907F1BBD792B00C2700F /* Frameworks */,
+				D9F090801BBD792B00C2700F /* Resources */,
+				C45FCB77CEF56384A809F44C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailInvision;
+			productName = MailInvision;
+			productReference = D9F090821BBD792B00C2700F /* MailInvision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9F0909A1BBD792B00C2700F /* MailInvisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F090A81BBD792B00C2700F /* Build configuration list for PBXNativeTarget "MailInvisionTests" */;
+			buildPhases = (
+				D9F090971BBD792B00C2700F /* Sources */,
+				D9F090981BBD792B00C2700F /* Frameworks */,
+				D9F090991BBD792B00C2700F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F0909D1BBD792B00C2700F /* PBXTargetDependency */,
+			);
+			name = MailInvisionTests;
+			productName = MailInvisionTests;
+			productReference = D9F0909B1BBD792B00C2700F /* MailInvisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F0907A1BBD792A00C2700F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Laterous, LLC";
+				TargetAttributes = {
+					D9F090811BBD792B00C2700F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D9F0909A1BBD792B00C2700F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D9F090811BBD792B00C2700F;
+					};
+				};
+			};
+			buildConfigurationList = D9F0907D1BBD792A00C2700F /* Build configuration list for PBXProject "MailInvision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9F090791BBD792A00C2700F;
+			productRefGroup = D9F090831BBD792B00C2700F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F090811BBD792B00C2700F /* MailInvision */,
+				D9F0909A1BBD792B00C2700F /* MailInvisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F090801BBD792B00C2700F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FFE1D71BBECDF200B1A748 /* icon-reply@2x.png in Resources */,
+				96FFE1EB1BBF13C300B1A748 /* button-compose@2x.png in Resources */,
+				96FFE2031BC2C7CA00B1A748 /* menu-item-drafts@2x.png in Resources */,
+				96FFE1E71BBF111E00B1A748 /* button-more@2x.png in Resources */,
+				D9F090911BBD792B00C2700F /* Inbox.storyboard in Resources */,
+				D9A9647E1BC317AE0051AA8E /* Icon@2x.png in Resources */,
+				D9A9647F1BC317AE0051AA8E /* iTunesArtwork.png in Resources */,
+				D9A964791BC317AE0051AA8E /* Icon-72.png in Resources */,
+				D9A964741BC317AE0051AA8E /* Icon-76@2x.png in Resources */,
+				D9A964781BC317AE0051AA8E /* Icon-60.png in Resources */,
+				D9A9646F1BC317AE0051AA8E /* Icon-40@2x.png in Resources */,
+				D9A9646D1BC317AE0051AA8E /* Contents.json in Resources */,
+				96FFE1E01BBF0A9B00B1A748 /* background-navigation-bar@2x.png in Resources */,
+				96FFE1FB1BC2B18E00B1A748 /* Menu.plist in Resources */,
+				D9A964751BC317AE0051AA8E /* Icon-Small.png in Resources */,
+				D9A9647B1BC317AE0051AA8E /* Icon-Small-50.png in Resources */,
+				D9A964801BC317AE0051AA8E /* iTunesArtwork@2x.png in Resources */,
+				D9A964711BC317AE0051AA8E /* Icon-60@2x.png in Resources */,
+				96FFE1E81BBF111E00B1A748 /* button-remove@2x.png in Resources */,
+				D9A964721BC317AE0051AA8E /* Icon-60@3x.png in Resources */,
+				D9A964701BC317AE0051AA8E /* Icon-40@3x.png in Resources */,
+				D9F090961BBD792B00C2700F /* LaunchScreen.xib in Resources */,
+				D9A9647A1BC317AE0051AA8E /* Icon-72@2x.png in Resources */,
+				96FFE1E61BBF111E00B1A748 /* button-download@2x.png in Resources */,
+				96FFE1D91BBEEED400B1A748 /* icon-more@2x.png in Resources */,
+				D9A964761BC317AE0051AA8E /* Icon-Small@2x.png in Resources */,
+				96FFE2061BC2C7CA00B1A748 /* menu-item-sent@2x.png in Resources */,
+				D9A964731BC317AE0051AA8E /* Icon-76.png in Resources */,
+				96FFE1DB1BBEFE0100B1A748 /* image-placeholder@2x.png in Resources */,
+				D9F090E91BBEA5EC00C2700F /* marker-attachment@2x.png in Resources */,
+				D9A9647C1BC317AE0051AA8E /* Icon-Small-50@2x.png in Resources */,
+				D9A9646E1BC317AE0051AA8E /* Icon-40.png in Resources */,
+				D9F090931BBD792B00C2700F /* Images.xcassets in Resources */,
+				96FFE1C91BBEAC9F00B1A748 /* marker-search@2x.png in Resources */,
+				96FFE1E21BBF0EBD00B1A748 /* button-back-placeholder@2x.png in Resources */,
+				D9A9647D1BC317AE0051AA8E /* Icon.png in Resources */,
+				9697AA591BC2FB47009E3C47 /* splash-main@2x.png in Resources */,
+				96FFE20C1BC2C84E00B1A748 /* menu-item-important@2x.png in Resources */,
+				96FFE20D1BC2C84E00B1A748 /* menu-item-personal@2x.png in Resources */,
+				96FFE1EC1BBF13C300B1A748 /* button-menu@2x.png in Resources */,
+				96FFE20E1BC2C84E00B1A748 /* menu-item-travel@2x.png in Resources */,
+				D9F090D61BBD88EF00C2700F /* Onboarding.storyboard in Resources */,
+				96FFE2071BC2C7CA00B1A748 /* menu-item-trash@2x.png in Resources */,
+				96FFE20F1BC2C84E00B1A748 /* menu-item-work@2x.png in Resources */,
+				96FFE2051BC2C7CA00B1A748 /* menu-item-pinned@2x.png in Resources */,
+				96FFE2041BC2C7CA00B1A748 /* menu-item-inbox@2x.png in Resources */,
+				96FFE1D61BBECDF200B1A748 /* icon-forward@2x.png in Resources */,
+				D9A964771BC317AE0051AA8E /* Icon-Small@3x.png in Resources */,
+				96FFE1FD1BC2C71000B1A748 /* menu-item-circle@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F090991BBD792B00C2700F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C45FCB77CEF56384A809F44C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailInvision/Pods-MailInvision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DED35A76A674AF8830C639 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F0907E1BBD792B00C2700F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F090B81BBD816100C2700F /* Attachment.m in Sources */,
+				D9A964561BC01BE60051AA8E /* SideMenuManagerViewController.m in Sources */,
+				D9F090D31BBD85D900C2700F /* ThreadTableViewController.m in Sources */,
+				96FFE1CD1BBEAE9300B1A748 /* UIImageView+Internet.m in Sources */,
+				96FFE1F51BC2AF6300B1A748 /* MenuViewController.m in Sources */,
+				D9F090E21BBE99E700C2700F /* InboxHelper.m in Sources */,
+				96FFE1D31BBEBDC400B1A748 /* AttachmentCell.m in Sources */,
+				D9F090C41BBD828200C2700F /* Recipient.m in Sources */,
+				D9F090D91BBDDE5F00C2700F /* InboxAPI.m in Sources */,
+				96FFE1F81BC2B0D600B1A748 /* MenuItem.m in Sources */,
+				D9F090E51BBEA1A200C2700F /* UIHelper.m in Sources */,
+				D9F0908B1BBD792B00C2700F /* AppDelegate.m in Sources */,
+				D9F090BE1BBD81FF00C2700F /* InboxItem.m in Sources */,
+				D9F090B41BBD800A00C2700F /* Email.m in Sources */,
+				D9F090D01BBD85AE00C2700F /* InboxTableViewController.m in Sources */,
+				D9F090CD1BBD857800C2700F /* InboxCell.m in Sources */,
+				96FFE1F01BC2A88800B1A748 /* LoginViewController.m in Sources */,
+				D9F090DC1BBDE91000C2700F /* DateHelper.m in Sources */,
+				D9F090DF1BBE06D000C2700F /* EmailCell.m in Sources */,
+				D9F090881BBD792B00C2700F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F090971BBD792B00C2700F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F090A21BBD792B00C2700F /* MailInvisionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F0909D1BBD792B00C2700F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F090811BBD792B00C2700F /* MailInvision */;
+			targetProxy = D9F0909C1BBD792B00C2700F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9F0908F1BBD792B00C2700F /* Inbox.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F090901BBD792B00C2700F /* Base */,
+			);
+			name = Inbox.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F090941BBD792B00C2700F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F090951BBD792B00C2700F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F090A31BBD792B00C2700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9F090A41BBD792B00C2700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F090A61BBD792B00C2700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD95FCAE22C9B9E03C9DF72C /* Pods-MailInvision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailInvision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9F090A71BBD792B00C2700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4B32CCD07F859B24A7F8A1 /* Pods-MailInvision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailInvision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9F090A91BBD792B00C2700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MailInvisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailInvision.app/MailInvision";
+			};
+			name = Debug;
+		};
+		D9F090AA1BBD792B00C2700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MailInvisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailInvision.app/MailInvision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F0907D1BBD792A00C2700F /* Build configuration list for PBXProject "MailInvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F090A31BBD792B00C2700F /* Debug */,
+				D9F090A41BBD792B00C2700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F090A51BBD792B00C2700F /* Build configuration list for PBXNativeTarget "MailInvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F090A61BBD792B00C2700F /* Debug */,
+				D9F090A71BBD792B00C2700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F090A81BBD792B00C2700F /* Build configuration list for PBXNativeTarget "MailInvisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F090A91BBD792B00C2700F /* Debug */,
+				D9F090AA1BBD792B00C2700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F0907A1BBD792A00C2700F /* Project object */;
+}
