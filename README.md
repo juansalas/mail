@@ -14,23 +14,23 @@ This iOS app has been built using the prototype "Mail by Invision" as inspiratio
 
 Open Mac's Terminal app and run the following commands:
 
-1. Create a folder to host the project
+#### Create a folder to host the project
 ```
 mkdir FOLDER_NAME
 cd FOLDER_NAME
 ```
 
-2. Let's clone the repo.
+#### Let's clone the repo.
 ```
 git clone https://github.com/juansalas/mail.git
 ```
 
-2. Install the CocoaPods (AFNetworking)
+#### Install the CocoaPods (AFNetworking)
 ```
 pod install
 ```
 
-3. That's all! Open MailInvision.xcworkspace on Xcode.
+#### ***That's all!*** Open MailInvision.xcworkspace on Xcode.
 
 ## API Configuration
 
