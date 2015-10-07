@@ -2,13 +2,27 @@
 
 This iOS app has been built using the prototype "Mail by Invision" as inspiration. The prototype can be found at [https://invis.io/YV3Y3C8D6](https://invis.io/YV3Y3C8D6)
 
+![Inbox View](https://dl.dropboxusercontent.com/u/287658/mail0.png?new)
+![Email Thread View](https://dl.dropboxusercontent.com/u/287658/mail1.png?new)
+
+## Requirements
+1. Xcode 6.4
+2. Git [Follow this guide to install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+3. CocoaPods [Follow this guide to install](https://guides.cocoapods.org/using/getting-started.html)
+
 ## Installation
 
 Open Mac's Terminal app and run the following commands:
 
-1. Let's clone the repo.
+1. Create a folder to host the project
 ```
-git clone https://github.com/juansalas/mail.git DESTINATION_FOLDER
+mkdir FOLDER_NAME
+cd FOLDER_NAME
+```
+
+2. Let's clone the repo.
+```
+git clone https://github.com/juansalas/mail.git
 ```
 
 2. Install the CocoaPods (AFNetworking)
